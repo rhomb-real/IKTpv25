@@ -19,6 +19,7 @@ print(f"kas_käib_koolis {kas_käib_koolis} on: {type(kas_käib_koolis)}")
 #3
 import math
 import random
+from math import pi
 
 
 kommid = random.randint(0, 10)
@@ -29,7 +30,7 @@ print(f"Kommid on {kommid}.")
 
 #4
 circle = int(input("kui pikk on ringjoon?  "))
-diam = circle / 3.15
+diam = circle / pi
 print(f"Ring diameter on {diam}")
 
 #5
