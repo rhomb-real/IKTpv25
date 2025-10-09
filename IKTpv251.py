@@ -1,7 +1,5 @@
 ﻿import math
 from math import * #import oli valesti tehtud
-from math import sqrt
-from math import pi
 print("Ruudu karakteristikud")
 a=int(input("Sisesta ruudu külje pikkus => ")) #int
 S=a**2
