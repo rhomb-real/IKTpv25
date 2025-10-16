@@ -27,3 +27,21 @@ Sr=pi*r*2 #import pi, nimi
 print("Ringi pindala", round(Sr, 2)) #numbrit
 C=2*pi*r
 print("Ringjoone pikkus", round(C, 2)) #numbrit
+
+paev_number=int(input("Sisesta päeva number (1-7): "))
+if paev_number==1: 
+    print("Esmaspäev")
+elif paev_number==2:
+    print("Teisipaev")
+elif paev_number==3:
+    print("Kolmapaev")
+elif paev_number==4:
+    print("Neljapaev")
+elif paev_number==5:
+    print("Reede")
+elif paev_number==6:
+    print("Laupaev")
+elif paev_number==7:
+    print("Puhapaev")
+else:
+    print("Vale number! Palun sisesta number vahemikus 1-7")
