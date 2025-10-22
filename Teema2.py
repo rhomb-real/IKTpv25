@@ -149,14 +149,21 @@ else:
 
 number1=float(input("Mis on number1? "))
 number2=float(input("Mis on number2? "))
-Operatsioon=input("Mis on operatsioon? ").capitalize()
-
-
-
-
-
-
-
+Operatsioon=input("Mis on operatsioon sümbol? ").capitalize()
+if Operatsioon == "+":
+    number3 == number1 + number2
+    print(f"{number3}")
+elif Operatsioon == "-":
+    number3 == number1 - number2
+    print(f"{number3}")
+elif Operatsioon == "*":
+    number3 == number1 * number2
+    print(f"{number3}")
+elif Operatsioon == "/":
+    number3 == number1 / number2
+    print(f"{number3}")
+else:
+    print(f"{Operatsioon} Ei ole sümbol")
 
 #11
 sunni=int(input("Sünnipäev on "))
@@ -195,3 +202,16 @@ else:
     print("?")
 
 #14
+
+inimesed=int(input("Inimesed on: "))
+buss=int(input("Buss Inimesed on: "))
+int(numbrit == 1)
+
+while False:
+    if esimesed <= buss:
+        print("Buss {numbrit} on {inimesed} inimesed. See on kõik Inimesed")
+    else:
+        inimesed == inimesed - buss
+        numbrit == numbrit + 1
+        print("Buss {numbrit} on {inimesed} inimesed")
+    
