@@ -209,9 +209,9 @@ int(numbrit == 1)
 
 while False:
     if esimesed <= buss:
-        print("Buss {numbrit} on {inimesed} inimesed. See on kõik Inimesed")
+        print(f"Buss {numbrit} on {inimesed} inimesed. See on kõik Inimesed")
     else:
         inimesed == inimesed - buss
         numbrit == numbrit + 1
-        print("Buss {numbrit} on {inimesed} inimesed")
+        print(f"Buss {numbrit} on {inimesed} inimesed")
     

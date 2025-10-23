@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>08fa88f1-fc9e-4653-95d7-8b72e3433940</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Teema2.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +26,7 @@
       <Link>IKTpv25.py</Link>
     </Compile>
     <Compile Include="IKTpv251.py" />
+    <Compile Include="Teema2.3.py" />
     <Compile Include="Teema2.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
