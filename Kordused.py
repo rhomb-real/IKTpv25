@@ -55,7 +55,17 @@ for i in range (N):
             print(f"{pos}")
 #4
 nat=int(input("num = "))
-nat = str(nat)
+even = 0
+odd = 0
+for i in string(nat):
+    if int(i)%2 == 0:
+        even += 1
+    else:
+        odd += 1
+print(f"Odd = {odd}")
+print(f"Even = {even}")
+            
+
 
 #5
 A=int(input("A = "))
