@@ -1,87 +1,100 @@
 ﻿#1
-w = int(input("n = "))
-if w > 9:
-    print("Vale")
-elif w < 0:
-    print("Vale")
-else:
-    for n in range (w):
-        while True:
-            try:
-                print("""\   /V\    
+while True:
+    try:
+        w = int(input("int n = "))
+        if w > 9:
+            print("Vale number!")
+        elif w < 0:
+            print("Vale number!")
+        else:
+            break
+    except:
+        print("Vale andmpetüüp!")
+for n in range (w):
+                print("""    /V\    
    / V \ 
   / V V \  
  /VV V VV\    """)
                 print(" ")
-                break
-            except:
-                print("No")
 
 #2
 import math
-R = int(input("R = "))
-if R % 2 != 0:
-    print("Vale nümber!")
-else:
-    r = 0
-    m = 0
-    o = R + 1
-    for i in range(o):
-        try:        
-            if r <= R:
-                r = r + 2
-                m *= r
+while True:
+        try:
+            R = int(input("int R = "))
+            if R <= 0:
+                print("Vale number!")
             else:
-                print(f"Result on {m}")
                 break
         except:
-            print("No")
+            print("Vale andmetüüp!")
+r = 1
+m = 1
+o = R + 1
+for i in range(o):
+    if r <= R:            
+       m *= r
+       r = r + 2
+print(f"Result on {m}")
+print(" ")
 #3
 import random
 N = random.randint(1, 1000)
 pos = 0
 for i in range (N):
-    while True:
-        try:
-            p = random.randint(-999, 999)
-            if p < 0:
-                pos == pos
-            elif p == 0:
-                pos == pos
-            else:
-                pos += 1
-        finally:
-            break
-            print(f"{pos}")
+
+    p = random.randint(-999, 999)
+    if p > 0:
+       pos += 1
+print(f"random pos: {pos}")
+print(" ")
 #4
-nat=int(input("num = "))
+while True:
+        try:
+            nat=int(input("int num = "))
+            break
+        except:
+            print("Vale andmetüüp!")
 even = 0
 odd = 0
-for i in string(nat):
+for i in str(nat):
     if int(i)%2 == 0:
         even += 1
     else:
         odd += 1
 print(f"Odd = {odd}")
 print(f"Even = {even}")
+print(" ")
             
-
-
 #5
-A=int(input("A = "))
-B=int(input("B = "))
-num = A
-loop = B - A
-summ = A
-for i in range (loop):
-    while True:
-        try:
-            if num <= B:
-                 summ += A
-                 A += 1
-                 num += 1
-            else:
-                break
-        except:
-            print("No")
-print(f"Summa on {summ}")
+while True:
+     try:
+            A=int(input("int A = "))
+            B=int(input("int B = "))
+            break
+     except:
+            print("Vale andmetüüp!")
+if A < B:
+    num = A
+    loop = B - A
+    summ = A
+    for i in range(loop):
+        if num <= B:           
+           A += 1
+           summ += A
+           num += 1
+        else:
+           print(f"Summa on {summ}")
+elif A > B:
+    num = B
+    loop = A - B 
+    summ = B
+    for i in range(loop):
+        if num <= A:
+            B += 1
+            summ += B
+            num += 1
+        else:
+            print(f"Summa on {summ}")
+else:
+    print("Vale numbrid!")
