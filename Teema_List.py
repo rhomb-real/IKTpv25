@@ -1,11 +1,14 @@
 ﻿import msvcrt
+#Sisestamise ajaö asendatakse kõik tähed @-märgiga
 täht=""
 while True:
     t=msvcrt.getwch()
     print(t.replace(t,"*"),end="", flush=True)
-    täht+=t
-    if t=='\r':
+    if t=='\r': #Enter
         break
+    else:
+        täht+=t
+        print(täht)
 print()
 print(täht)
 
