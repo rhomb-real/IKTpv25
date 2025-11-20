@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>08fa88f1-fc9e-4653-95d7-8b72e3433940</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Kordused.py</StartupFile>
+    <StartupFile>Teema_List.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,10 @@
     <Compile Include="3.1.py" />
     <Compile Include="Kordused.py" />
     <Compile Include="kiri-paber-käärid.py" />
+<<<<<<< HEAD
+    <Compile Include="Teema_List.py" />
+=======
+>>>>>>> 9b3b46767ce87e92ab4119de7832d04bda37115a
     <Compile Include="Teema2.3.py" />
     <Compile Include="Teema2.py" />
   </ItemGroup>
