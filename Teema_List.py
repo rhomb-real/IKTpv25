@@ -1,4 +1,18 @@
-﻿#List-loend
+﻿import msvcrt
+täht=""
+while True:
+    t=msvcrt.getwch()
+    print(t.replace(t,"*"),end="", flush=True)
+    täht+=t
+    if t=='\r':
+        break
+print()
+print(täht)
+
+täht=input("Sisesta oma nimi: ").encode('utf-8')
+print(f"Tere, {täht.decode('utf-8')}!")
+
+#List-loend
 l=[]
 print(f"Listi algseis: {l}")
 while True:
@@ -65,7 +79,7 @@ while True:
         n=[]
         while True:
             try:
-                i=int(input("Mitu elementi? "))
+                i=int(input("Mitu elementi soobid lisada? "))
                 if i>0:
 
                     break
@@ -74,7 +88,7 @@ while True:
             except:
                 print("Täisarvud on vaja kasutada")
         for element_id in range(i):
-            element=input(f"{element_id}. n element:")
+            element=input(f"{element_id}. element:")
             n.append(element)
         l.extend(n)
     elif valik==6:

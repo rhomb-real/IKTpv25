@@ -28,10 +28,7 @@
     <Compile Include="3.1.py" />
     <Compile Include="Kordused.py" />
     <Compile Include="kiri-paber-käärid.py" />
-<<<<<<< HEAD
     <Compile Include="Teema_List.py" />
-=======
->>>>>>> 9b3b46767ce87e92ab4119de7832d04bda37115a
     <Compile Include="Teema2.3.py" />
     <Compile Include="Teema2.py" />
   </ItemGroup>
