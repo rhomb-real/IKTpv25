@@ -28,6 +28,11 @@
     <Compile Include="3.1.py" />
     <Compile Include="Kordused.py" />
     <Compile Include="kiri-paber-käärid.py" />
+<<<<<<< HEAD
+    <Compile Include="Mooduli_fail.py" />
+    <Compile Include="Tavaline_fail.py" />
+=======
+>>>>>>> fbcc5eabea704f7cbc9a20793555bd7d084dffb4
     <Compile Include="Teema4.1.py" />
     <Compile Include="Teema_List.py" />
     <Compile Include="Teema2.3.py" />
