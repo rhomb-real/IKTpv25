@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>044c85b7-e2c8-4f33-be21-721289434137</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>IKT2.py</StartupFile>
+    <StartupFile>põhifaili.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="IKT2.py" />
+    <Compile Include="põhifaili.py" />
+    <Compile Include="Registreer.py" />
+    <Compile Include="Tavaline.py" />
+    <Compile Include="Moodul.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
