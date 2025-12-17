@@ -1,4 +1,4 @@
-﻿from Registreer import *
+﻿﻿from Registreerimine import *
 k = ['Kostja', 'Nikita', 'Anja', 'Paul']
 s = ['1524', 'pool', '2414', '6457']
 
