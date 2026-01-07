@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4e00d355-8286-4d2f-8dfc-4de2043d10d6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Registreerimine.py</StartupFile>
+    <StartupFile>Email saamine.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Email saamine.py" />
     <Compile Include="põhifaili.py" />
     <Compile Include="Registreerimine.py" />
   </ItemGroup>
