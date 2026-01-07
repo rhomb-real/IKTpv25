@@ -3,9 +3,9 @@
 from email.message import EmailMessage
 #njvq lzcd kdvm mgra
 def saada_email(saaja_email):
-    kiri="Tere! See on test e-kiri Pythonist."
+    kiri="Tere! See on test e-kiri Pythonist. https://github.com/rhomb-real/IKTpv25/blob/master/Email%20saamine.py"
     teema="Test e-kiri Pythonist"
-    saatja_email="guskovkostya.15@gmail.com"
+    saatja_email=input("Sisesta oma e-posti aadress: ")
     parool=input("Sisesta rakenduse parool: ")
     smtp_server="smtp.gmail.com"
     port=587 #465
