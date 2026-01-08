@@ -15,10 +15,9 @@ def saada_email(saaja_email):
     msg["Subject"]=teema
     msg["From"]=saatja_email
     msg["To"]=saaja_email
-    # with open('image.jpg', 'rb') as file:
-    #     image_data = file.read()
-    # msg.add.attachment(image_data, maintype='image'),
-    # subtype=imghdr.what(None, image_data)
+    with open("image.png", "rb") as f:
+       image_data = f.read()
+    msg.add.attachment(image_data, maintype='image', subtype="png"),
     try:
         with smtplib.SMTP(smtp_server,port) as server:
             server.starttls(context=context)
@@ -32,4 +31,4 @@ kellele=input("Sisesta saaja e-posti aadress: ")
 print("Saadan e-kirja...")   
 saada_email(kellele)
 
-#oleinik.marina@gmail.coms
+#marina.oleinik@tthk.ee
