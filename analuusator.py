@@ -44,18 +44,19 @@ def analuusi_faili_sisu(File):
 #3
 def loo_raporti_kataloog(nimi="Analüüsi_Raportid"):
     """
-
+    Otsib ja loob faili "Analüüsi_Raportid"
     """
     if os.path.exists(nimi) == True:
-        print("File exists")
+        print("File already exists")
     else:
         os.mkdir(nimi)
-        print("File created")
+        print("File created: Analüüsi_Raportid")
 
 #4
-def leia_failid_algustahega(taht):
+def leia_failid_algustahega(taht: str):
     """
-
+    Otsib praegusest kataloogist faile, mis algavad määratud tähega
+    taht: Algustäht (string)
     """
     while True:
      taht = input("One letter: ")
@@ -63,6 +64,18 @@ def leia_failid_algustahega(taht):
          print("Too many or not a letter")
      else:
          break
-    four=glob.glob(taht*.*)
+    four=glob.glob(f"{taht}*.*")
     print(four)
     
+
+#5
+def otsi_faili(faili_nimi, otsingu_tee="."):
+     for juur, kaustad, failid in os.walk(otsingu_tee):
+         if faili_nimi in failid:
+             return os.path.join(juur, faili_nimi)
+     return "Faili ei leitud"
+
+#Näide kasutamisest
+otsitav_fail=input("Sosesta otsitava faili nimi (nt minu_fail.txt): ")
+tulemus = otsi_faili(otsitav_fail)
+print(tulemus)

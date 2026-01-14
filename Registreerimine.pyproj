@@ -23,6 +23,8 @@
   <ItemGroup>
     <Compile Include="Email saamine.py" />
     <Compile Include="analuusator.py" />
+    <Compile Include="main.py" />
+    <Compile Include="Maindef.py" />
     <Compile Include="too failidega.py" />
     <Compile Include="põhifaili.py" />
     <Compile Include="Registreerimine.py" />
