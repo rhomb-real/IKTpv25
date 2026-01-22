@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4e00d355-8286-4d2f-8dfc-4de2043d10d6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>analuusator.py</StartupFile>
+    <StartupFile>põhifaili.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

@@ -3,53 +3,51 @@
 k =  []
 s =  []
 def registreeri(k:list, s: list) -> any:
-    pass
-import string
-parool = ""
-rand=bool(input("Automaatne parool? 1-jah 0-ei: "))
-if rand == False:
-      while True:
-         nimi=input("Nimi: ")
-         parool=input("Parool: ")
-         if nimi or parool != type(str):
-             print("Vale andmetüüp!")
-         elif nimi == k:
-            print("Vale Nimi!")
-         elif parool == s:
-            print("Vale parool!")
-         else:
-             if parool.isdigit(any) and parool.isupper(any) and parool.islower(any) and parool(string.punctuation(any)):
-                 print(f"Parool on {parool}")
-                 regi = 1
-                 break
-             else: 
-                print("Vale parool!")
-elif rand == True:
-    while True:
-        nimi=input("Nimi: ")
-        if nimi != type(str):
-          print("Vale andmetüüp!")
-        elif nimi == k:
-          print("Vale nimi!")
-        else:
-          import random
-          part1 = "'~*%/()[]?#!"
-          part2 = 'qwertyuiopüõasdfghjklöäzxcvbnm'
-          part3 = '0123456789'
-          part4 = part2.upper()
-          part5 = part1 + part2 + part3 + part4
-          ls = list(part5)
-          random.shuffle(ls)
-          parool == ls
-          print(f"Parool on {parool}")
-          regi =1
-          break
-else:
-    print("Vale andmetüüp!")
+    import string
+    parool = ""
+    rand=bool(input("Automaatne parool? 1-jah 0-ei: "))
+    if rand == False:
+       while True:
+          nimi=input("Nimi: ")
+          parool=input("Parool: ")
+          if nimi or parool != type(str):
+              print("Vale andmetüüp!")
+          elif nimi == k:
+             print("Vale Nimi!")
+          elif parool == s:
+             print("Vale parool!")
+          else:
+                 if parool.isdigit(any) and parool.isupper(any) and parool.islower(any) and parool(string.punctuation(any)):
+                     print(f"Parool on {parool}")
+                     regi = 1
+                     break
+                 else: 
+                     print("Vale parool!")
+    elif rand == True:
+          while True:
+                 nimi=input("Nimi: ")
+                 if nimi != type(str):
+                    print("Vale andmetüüp!")
+                 elif nimi == k:
+                   print("Vale nimi!")
+                 else:
+                  import random
+                  part1 = "'~*%/()[]?#!"
+                  part2 = 'qwertyuiopüõasdfghjklöäzxcvbnm'
+                  part3 = '0123456789'
+                  part4 = part2.upper()
+                  part5 = part1 + part2 + part3 + part4
+                  ls = list(part5)
+                  random.shuffle(ls)
+                  parool == ls
+                  print(f"Parool on {parool}")
+                  regi =1
+                  break
+    else:
+     print("Vale andmetüüp!")
 
 #Valideerimine
 def autoriseerimine(k: list, s: list) -> any:
-    pass
 while True:
     check_nimi=input("Nimi: ")
     check_parool=input("Parool: ")
