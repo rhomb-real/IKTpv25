@@ -48,16 +48,16 @@ def registreeri(k:list, s: list) -> any:
 
 #Valideerimine
 def autoriseerimine(k: list, s: list) -> any:
-while True:
-    check_nimi=input("Nimi: ")
-    check_parool=input("Parool: ")
-    if check_nimi != nimi or check_parool != parool:
-        print("Ei!")
-    elif check_nimi or check_parool != type(str):
-        print("Vale andmetüüp!")
-    else:
-        print("Autoriseerimine!")
-        break
+    while True:
+        check_nimi=input("Nimi: ")
+        check_parool=input("Parool: ")
+        if check_nimi != nimi or check_parool != parool:
+            print("Ei!")
+        elif check_nimi or check_parool != type(str):
+            print("Vale andmetüüp!")
+        else:
+            print("Autoriseerimine!")
+            break
 #Paroolivahetus
 def paroolivahetus(k: list, s: list) -> any:
     import string
@@ -85,9 +85,9 @@ def paroolivahetus(k: list, s: list) -> any:
                     parool = uus_parool
                 else:
                     print("Väle")
-     break
-else:
-    print("Ei ole akkaunt!")
+                    break
+    else:
+        print("Ei ole akkaunt!")
 #Paroolitaastamine
 def paroolitaastamine(k: list, s: list) -> any:
     while True:
@@ -99,4 +99,5 @@ def paroolitaastamine(k: list, s: list) -> any:
         else:
             parool = ""
             break
+
 
