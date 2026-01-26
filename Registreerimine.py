@@ -60,44 +60,43 @@ while True:
         break
 #Paroolivahetus
 def paroolivahetus(k: list, s: list) -> any:
-    pass
-import string
-if regi == 1:
-    while True:
-     chose=bool(input("0 - nimi. 1 - parool"))
-     if chose != type(bool):
-         print("Väle!")
-     elif chose == False:
-         uus_nimi=input("uus nimi: ")
-         if uus_nimi != type(str):
-                print("Vale andmetüüp!")
-         elif uus_nimi == k:
-             print("Vale Nimi!")
+    import string
+    if regi == 1:
+        while True:
+         chose=bool(input("0 - nimi. 1 - parool"))
+         if chose != type(bool):
+             print("Väle!")
+         elif chose == False:
+             uus_nimi=input("uus nimi: ")
+             if uus_nimi != type(str):
+                    print("Vale andmetüüp!")
+             elif uus_nimi == k:
+                 print("Vale Nimi!")
+             else:
+                 nimi=uus_nimi
          else:
-             nimi=uus_nimi
-     else:
-         uus_parool=input("uus parool: ")
-         if uus_parool != type(str):
-             print("Vale andmetüüp!")
-         elif uus_parool == s:
-             print("Vale parool!")
-         else:
-            if uus_parool.isdigit(any) and uus_parool.isupper(any) and uus_parool.islower(any) and uus_parool(string.punctuation(any)):
+             uus_parool=input("uus parool: ")
+             if uus_parool != type(str):
+                 print("Vale andmetüüp!")
+             elif uus_parool == s:
+                 print("Vale parool!")
+             else:
+                if uus_parool.isdigit(any) and uus_parool.isupper(any) and uus_parool.islower(any) and uus_parool(string.punctuation(any)):
                     parool = uus_parool
-            else:
-                   print("Väle")
+                else:
+                    print("Väle")
      break
 else:
     print("Ei ole akkaunt!")
 #Paroolitaastamine
 def paroolitaastamine(k: list, s: list) -> any:
-    pass
-while True:
-    sure=bool(input("Are you sure? 0 - no. 1 - yes. "))
-    if sure != type(bool):
-       print("Väle!")
-    elif sure == False:
-        break
-    else:
-        parool = ""
-        break
+    while True:
+        sure=bool(input("Are you sure? 0 - no. 1 - yes. "))
+        if sure != type(bool):
+           print("Väle!")
+        elif sure == False:
+            break
+        else:
+            parool = ""
+            break
+
