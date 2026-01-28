@@ -1,7 +1,6 @@
 ﻿from Registreerimine import *
 k = ['Kostja', 'Nikita', 'Anja', 'Paul']
 s = ['1524', 'pool', '2414', '6457']
-
 while True:
     print("Vali tegevus:")
     print("1 - Registreerimine")
@@ -20,5 +19,6 @@ while True:
         paroolitaastamine (k, s)
     elif valik == '5':
         print ("Väljun programmist")
+        break
     else:
         print ("Vale number!")
